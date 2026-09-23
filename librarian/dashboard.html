@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Librarian Dashboard | GLA e-Library</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark">G</div>
+                <div>GLA e-Library<small>Librarian Portal</small></div>
+            </div>
+            <div class="nav-label">PORTAL</div><a class="nav active" href="dashboard.html"><span>⌂</span>Dashboard</a><a
+                class="nav " href="issue.html"><span>↗</span>Issue Book</a><a class="nav "
+                href="return.html"><span>↩</span>Return Book</a><a class="nav " href="renew.html"><span>⟳</span>Renew
+                Book</a><a class="nav " href="catalogue.html"><span>▤</span>Catalogue</a><a class="nav "
+                href="members.html"><span>♙</span>Members</a><a class="nav "
+                href="notices.html"><span>!</span>Notices</a><a class="nav " href="../index.html"><span>←</span>Home</a>
+            <div class="side-user"><strong>shivam</strong>Librarian<br><span>GLA University</span></div>
+        </aside>
+        <main class="content">
+            <header class="header">
+                <div>
+                    <div class="eyebrow">LIBRARIAN PORTAL</div>
+                    <h1>Librarian Dashboard</h1>
+                    <p>GLA University • Library & Digital Resource Management</p>
+                </div>
+                <div class="user">
+                    <div class="avatar">LD</div>shivam
+                </div>
+            </header>
+            <div class="admin-highlight">
+                <div class="eyebrow" style="color:#a5b4fc">LIBRARIAN WORKSPACE</div>
+                <h2>Daily circulation at a glance</h2>
+                <p>Manage issue, return, renewals, catalogue and member services.</p>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <div class="icon">📚</div>
+                    <div><small>Total Books</small><strong>12,480</strong><span>Catalogue inventory</span></div>
+                </div>
+                <div class="stat">
+                    <div class="icon">↗</div>
+                    <div><small>Issued Today</small><strong>37</strong><span class="green">Completed</span></div>
+                </div>
+                <div class="stat">
+                    <div class="icon">↩</div>
+                    <div><small>Returns Today</small><strong>24</strong><span>Processed</span></div>
+                </div>
+                <div class="stat">
+                    <div class="icon">♙</div>
+                    <div><small>Active Members</small><strong>3,842</strong><span>Current accounts</span></div>
+                </div>
+            </div>
+            <div class="panel" style="margin-top:20px">
+                <div class="panel-head">
+                    <div>
+                        <h3>Recent Circulation</h3>
+                        <p>Latest library transactions</p>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>MEMBER</th>
+                            <th>BOOK</th>
+                            <th>TRANSACTION</th>
+                            <th>DATE</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ananya Rao<br><span class="muted">LIB-2023-0142</span></td>
+                            <td>Computer Networks</td>
+                            <td>Issue</td>
+                            <td>21 Sep 2026</td>
+                            <td><span class="badge">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Rahul Sharma</td>
+                            <td>Clean Code</td>
+                            <td>Return</td>
+                            <td>21 Sep 2026</td>
+                            <td><span class="badge">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Priya Singh</td>
+                            <td>Database Systems</td>
+                            <td>Renew</td>
+                            <td>21 Sep 2026</td>
+                            <td><span class="badge warn">Renewed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
